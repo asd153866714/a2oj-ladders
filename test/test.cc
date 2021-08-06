@@ -1,12 +1,12 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
-int main(void)
-{
-  int i, j, arr[5]={0};
-  for(i=0; i<5; i++){
-    cin >> arr[i];
+int main(void) {
+  string a = "923";
+  if (a[0] == '9') {
+    cout << 1;
+  } else {
+    cout << 0;
   }
-  cout << arr[3];
-
 }
